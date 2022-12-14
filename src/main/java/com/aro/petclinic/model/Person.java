@@ -1,15 +1,15 @@
 package com.aro.petclinic.model;
 
 public class Person  extends BaseEntity{
-    private String firsttName;
+    private String firstName;
     private String lastName;
 
-    public String getFirsttName() {
-        return firsttName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirsttName(String firsttName) {
-        this.firsttName = firsttName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
