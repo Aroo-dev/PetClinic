@@ -5,6 +5,9 @@ import com.aro.petclinic.model.Vet;
 import com.aro.petclinic.services.OwnerService;
 import com.aro.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+@Component
 
 public class DataLoader implements CommandLineRunner {
 
